@@ -1,0 +1,19 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-07-30T18:12:43.458+05:30' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '5'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-07-30T18:13:37.084+05:30' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '5 odd'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-07-30T18:15:08.186+05:30' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '"1. Variable Declaration and Assignment"\rnames := OrderedCollection new. "Create an empty ordered collection (like a dynamic array)"\r\r"2. Adding names using keyword messages"\rnames add: \'Alice\'.\rnames add: \'Bob\'.\rnames add: \'Charlie\'.\rnames add: \'David\'.\r\r"3. Accessing elements using keyword messages and binary messages"\rfirstPerson := names at: 1. "Get the first element (Smalltalk collections are 1-indexed by default)"\r"firstPerson will be \'Alice\'"\r\rnumberOfNames := names size. "Unary message \'size\' to get the number of elements"\r"numberOfNames will be 4"\r\r"4. Removing an element using a keyword message"\rnames remove: \'Bob\'.\r\r"5. Checking for existence using a unary message"\rhasBob := names includes: \'Bob\'. "hasBob will be false"\rhasAlice := names includes: \'Alice\'. "hasAlice will be true"\r\r"6. Iterating with a Block and using Cascading Messages for output"\rTranscript show: \'Current Names:\'; cr. "Show header"\r\rnames do: [ :eachName |\r    Transcript\r        show: \' - \';             "Show a bullet point"\r        show: eachName;          "Show the name"\r        cr.                      "New line"\r].\r\r"7. More operations - checking if empty (unary message)"\rnames isEmpty. "Evaluates to false"\r\r"8. Clearing the collection (unary message)"\rnames removeAll.\rnames isEmpty. "Evaluates to true"\r\r"9. Final output"\rTranscript show: \'All names removed.\'; cr.'
+}

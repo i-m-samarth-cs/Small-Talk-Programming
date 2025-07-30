@@ -1,0 +1,25 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-07-30T18:16:55.891+05:30' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : 'name := OrderedCollection new.\r\rname add:\'Samarth\'\rname add:\'Shendre\'\r\rfirstname := name at:1\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-07-30T18:17:01.882+05:30' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : 'name := OrderedCollection new.\r\rname add:\'Samarth\'\rname add:\'Shendre\'\r\rfirstname := name at:1.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-07-30T18:17:09.151+05:30' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : 'name := OrderedCollection new.\r\rname add:\'Samarth\'.\rname add:\'Shendre\'.\r\rfirstname := name at:1.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-07-30T18:17:28.359+05:30' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : 'name := OrderedCollection new.\r\rname add:\'Samarth\'.\rname add:\'Shendre\'.\r\rfirstname := name at:1.\rsize:=name size.\r'
+}

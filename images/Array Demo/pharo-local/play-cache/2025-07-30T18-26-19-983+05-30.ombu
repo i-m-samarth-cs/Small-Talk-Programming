@@ -1,0 +1,31 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-07-30T18:27:45.271+05:30' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|numbers n|\r\rnumber := OrderedCollection new.\rnumbers add:10.\rnumbers add:20.\r\rnumbers remove:10.\rn := numbers size.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-07-30T18:28:32.086+05:30' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '|numbers n|\r\rnumber := OrderedCollection new.\rnumbers add:10.\rnumbers add:20.\r\r"numbers remove:10."\rn := numbers size.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-07-30T18:30:10.464+05:30' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '"|numbers n|\r\rnumber := OrderedCollection new.\rnumbers add:10.\rnumbers add:20.\r\rnumbers remove:10.\rn := numbers size."\r\r5 odd.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-07-30T18:30:32.218+05:30' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '|numbers n|\r\rnumber := OrderedCollection new.\rnumbers add:10.\rnumbers add:20.\r\rnumbers remove:10.\rn := numbers size.\r\r5 odd.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-07-30T18:31:18.445+05:30' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : '|numbers n|\r\rnumber := OrderedCollection new.\rnumber add:10.\rnumber add:20.\r\rnumber remove:10.\rn := number size.\r'
+}

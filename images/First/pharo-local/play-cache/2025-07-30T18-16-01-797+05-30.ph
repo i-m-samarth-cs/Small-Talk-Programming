@@ -1,0 +1,1 @@
+name := OrderedCollection new.name add:'Samarth'.name add:'Shendre'.firstname := name at:1.size:=name size.

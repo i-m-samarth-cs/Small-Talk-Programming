@@ -1,0 +1,1 @@
+|numbers n|number := OrderedCollection new.number add:10.number add:20.number remove:10.n := number size.
